@@ -8,7 +8,7 @@ dnf install gcc make bison gettext-devel binutils flex pkg-config patch libdevma
 ./bootstrap
 
 # Configure the grub
-./configure --target=x86_64 --with-platform=efi --prefix ~/workspace/boot/grub --srcdir ~/workspace/grub
+./configure --target=x86_64 --with-platform=efi --prefix /root/workspace/boot/grub --srcdir /root/workspace/grub
 
 # Build the grub source
 make
